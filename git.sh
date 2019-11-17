@@ -13,7 +13,7 @@ elif [ "push" = $1 ]; then
     fi
 
 elif [ "pull" = $1 ];then
-    `git pull`;
+    `git pull origin master`;
 else
     echo "error !!!"
 fi
