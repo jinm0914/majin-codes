@@ -6,7 +6,7 @@ if [ "-h" = "$1" ]; then
 elif [ "push" = $1 ]; then 
     if [ -n "$2" ]; then 
         `git add .`;
-        `git commit  -m "$2"`;
+        `git commit -m "$2"`;
         `git push -u origin master`;
     else 
         echo "请输入更新内容";    
