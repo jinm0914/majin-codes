@@ -1,0 +1,3 @@
+g++ clUdpTimeDate.cpp -lpthread -o clUdpTimeDate
+g++ seUdpTimeDate.cpp -lpthread -o seUdpTimeDate
+
