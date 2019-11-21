@@ -15,3 +15,6 @@ Feel free to raise issues, or contribute pull-requests, we welcome all kinds of 
 ## License
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=plastic)](https://github.com/TheNetAdmin/Makefile-Templates/blob/master/LICENSE)
+
+
+可使用cmake编译CMakeList.txt自动生成makefile文件，详情见：https://blog.csdn.net/afei__/article/details/81201039
