@@ -2,8 +2,8 @@
 
 日志打印问题
 
-模版：https://github.com/amrayn/easyloggingpp（c++） ；
-      zlog（c） ；
+模版：https://github.com/amrayn/easyloggingpp （c++）；
+     zlog（c） ；
 
 easyloggingpp常用功能：
 
