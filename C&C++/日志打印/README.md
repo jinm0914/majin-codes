@@ -2,11 +2,12 @@
 
 日志打印问题
 
-模版：https://github.com/amrayn/easyloggingpp（c++），zlog（c）
+模版：https://github.com/amrayn/easyloggingpp（c++） ；
+      zlog（c） ；
 
 easyloggingpp常用功能：
 
-1、打印等级及颜色、输出格式，写入log文件
+1、打印等级及颜色、输出格式，写入log文件（打开颜色el::Loggers::addFlag(el::LoggingFlag::ColoredTerminalOutput)）;
 
 2、打印著名（#define，fun（））、屏蔽（宏、配置文件，fun（））、判断（LOG_IF（））、
 
