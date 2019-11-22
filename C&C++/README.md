@@ -1,1 +1,1 @@
-# majin-C_C++
+# majin-C&C++
