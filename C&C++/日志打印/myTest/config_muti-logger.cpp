@@ -32,10 +32,23 @@ int main(void) {
     el::Loggers::addFlag(el::LoggingFlag::ColoredTerminalOutput); //打印显示颜色
 
     // el::Loggers::getLogger("logger_id"); //创建logger后需要手动注册
-    int i=0;
 
+
+    el::Logger* defaultLogger = el::Loggers::getLogger("logger"); //另一种打印方式,创建类指针对象，设置相关属性
+    
+    int i=0;
     while(1){
         Sleep(1000);
+        defaultLogger->warn("My first ultimate log message %v %v %v", 123, 222, i);
+        defaultLogger->info("My first ultimate log message %% %%v %v %v %v", 123, 22.2,"str");//%转义
+        // info(const char*, const T&, const Args&...)
+        // warn(const char*, const T&, const Args&...)
+        // error(const char*, const T&, const Args&...)
+        // debug(const char*, const T&, const Args&...)
+        // fatal(const char*, const T&, const Args&...)
+        // trace(const char*, const T&, const Args&...)
+        // verbose(int vlevel, const char*, const T&, const Args&...)
+
         MAJIN(TRACE) << "this is TRACE  " << i;
         MAJIN(DEBUG) << "this is DEBUG  " <<i;
         MAJIN(WARNING) << "this is WARNING  " << i;
