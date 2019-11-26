@@ -2,7 +2,7 @@
 
 日志打印问题
 
-一个简单的例子，，多logger，多打印，多输出
+一个简单的例子，，多logger，多打印，多输出，mdc键值对打印
 
 详情见  http://hardysimpson.github.io/zlog/UsersGuide-CN.html#htoc14
 
