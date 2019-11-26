@@ -1,9 +1,6 @@
-# majin-C_C++
-
-# majin-C_C++
+# majin-C&C++
 
 日志打印问题
-
 
 模版：
 
