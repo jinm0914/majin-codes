@@ -5,9 +5,11 @@
 日志打印问题
 
 
-模版：easylogging（c++）： https://github.com/amrayn/easyloggingpp  ；
+模版：
 
-         zlog（c）： http://hardysimpson.github.io/zlog/UsersGuide-CN.html#htoc14  ；
+   easylogging（c++）： https://github.com/amrayn/easyloggingpp  ；
+
+   zlog（c）： http://hardysimpson.github.io/zlog/UsersGuide-CN.html
 
 日志写入xx.log文本后，使用tail -f xx.log可以循环打印更新数据，常用于主程序不打印日志，
 
