@@ -31,15 +31,11 @@ void zlog_fini(void);
 void zlog_profile(void);
 
 zlog_category_t *zlog_get_category(const char *cname);
-int zlog_level_enabled(zlog_category_t *category, const int level);
 
 int zlog_put_mdc(const char *key, const char *value);
 char *zlog_get_mdc(const char *key);
 void zlog_remove_mdc(const char *key);
 void zlog_clean_mdc(void);
-
-int zlog_level_switch(zlog_category_t * category, int level);
-int zlog_level_enabled(zlog_category_t * category, int level);
 
 void zlog(zlog_category_t * category,
 	const char *file, size_t filelen,
@@ -81,8 +77,6 @@ typedef struct zlog_msg_s {
 
 typedef int (*zlog_record_fn)(zlog_msg_t *msg);
 int zlog_set_record(const char *rname, zlog_record_fn record);
-
-const char *zlog_version(void);
 
 /******* useful macros, can be redefined at user's h file **********/
 
@@ -263,14 +257,6 @@ typedef enum {
 #define hdzlog_debug(buf, buf_len) \
 	hdzlog(__FILE__, sizeof(__FILE__)-1, __func__, sizeof(__func__)-1, __LINE__, \
 	ZLOG_LEVEL_DEBUG, buf, buf_len)
-
-/* enabled macros */
-#define zlog_fatal_enabled(zc) zlog_level_enabled(zc, ZLOG_LEVEL_FATAL)
-#define zlog_error_enabled(zc) zlog_level_enabled(zc, ZLOG_LEVEL_ERROR)
-#define zlog_warn_enabled(zc) zlog_level_enabled(zc, ZLOG_LEVEL_WARN)
-#define zlog_notice_enabled(zc) zlog_level_enabled(zc, ZLOG_LEVEL_NOTICE)
-#define zlog_info_enabled(zc) zlog_level_enabled(zc, ZLOG_LEVEL_INFO)
-#define zlog_debug_enabled(zc) zlog_level_enabled(zc, ZLOG_LEVEL_DEBUG)
 
 #ifdef __cplusplus
 }

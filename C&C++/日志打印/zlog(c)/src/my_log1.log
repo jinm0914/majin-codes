@@ -1,0 +1,77 @@
+2019-11-25 23:21:06.059468 DEBUG  (majin_log1:zlogtest.cpp:56) - [36;40;1mThis is DEBUG = 1[0m
+2019-11-25 23:21:06.059514 INFO   (majin_log1:zlogtest.cpp:57) - [32;40;1mThis is WARN = 1[0m
+2019-11-25 23:21:06.059517 NOTICE (majin_log1:zlogtest.cpp:58) - [34;40;1mThis is NOTICE = 1[0m
+2019-11-25 23:21:06.059519 WARN   (majin_log1:zlogtest.cpp:59) - [33;40;1mThis is WARN = 1[0m
+2019-11-25 23:21:06.059522 ERROR  (majin_log1:zlogtest.cpp:60) - [35;40;1mThis is ERROR = 1[0m
+2019-11-25 23:21:06.059524 FATAL  (majin_log1:zlogtest.cpp:61) - [31;40;5mThis is FATAL = 1
+[0m
+2019-11-25 23:21:07.060512 DEBUG  (majin_log1:zlogtest.cpp:56) - [36;40;1mThis is DEBUG = 5[0m
+2019-11-25 23:21:07.060537 INFO   (majin_log1:zlogtest.cpp:57) - [32;40;1mThis is WARN = 5[0m
+2019-11-25 23:21:07.060542 NOTICE (majin_log1:zlogtest.cpp:58) - [34;40;1mThis is NOTICE = 5[0m
+2019-11-25 23:21:07.060544 WARN   (majin_log1:zlogtest.cpp:59) - [33;40;1mThis is WARN = 5[0m
+2019-11-25 23:21:07.060545 ERROR  (majin_log1:zlogtest.cpp:60) - [35;40;1mThis is ERROR = 5[0m
+2019-11-25 23:21:07.060547 FATAL  (majin_log1:zlogtest.cpp:61) - [31;40;5mThis is FATAL = 5
+[0m
+2019-11-25 23:21:08.061197 DEBUG  (majin_log1:zlogtest.cpp:56) - [36;40;1mThis is DEBUG = 9[0m
+2019-11-25 23:21:08.061219 INFO   (majin_log1:zlogtest.cpp:57) - [32;40;1mThis is WARN = 9[0m
+2019-11-25 23:21:08.061221 NOTICE (majin_log1:zlogtest.cpp:58) - [34;40;1mThis is NOTICE = 9[0m
+2019-11-25 23:21:08.061223 WARN   (majin_log1:zlogtest.cpp:59) - [33;40;1mThis is WARN = 9[0m
+2019-11-25 23:21:08.061226 ERROR  (majin_log1:zlogtest.cpp:60) - [35;40;1mThis is ERROR = 9[0m
+2019-11-25 23:21:08.061228 FATAL  (majin_log1:zlogtest.cpp:61) - [31;40;5mThis is FATAL = 9
+[0m
+2019-11-25 23:21:09.062158 DEBUG  (majin_log1:zlogtest.cpp:56) - [36;40;1mThis is DEBUG = 13[0m
+2019-11-25 23:21:09.062180 INFO   (majin_log1:zlogtest.cpp:57) - [32;40;1mThis is WARN = 13[0m
+2019-11-25 23:21:09.062184 NOTICE (majin_log1:zlogtest.cpp:58) - [34;40;1mThis is NOTICE = 13[0m
+2019-11-25 23:21:09.062185 WARN   (majin_log1:zlogtest.cpp:59) - [33;40;1mThis is WARN = 13[0m
+2019-11-25 23:21:09.062187 ERROR  (majin_log1:zlogtest.cpp:60) - [35;40;1mThis is ERROR = 13[0m
+2019-11-25 23:21:09.062189 FATAL  (majin_log1:zlogtest.cpp:61) - [31;40;5mThis is FATAL = 13
+[0m
+2019-11-25 23:21:10.062796 DEBUG  (majin_log1:zlogtest.cpp:56) - [36;40;1mThis is DEBUG = 17[0m
+2019-11-25 23:21:10.062816 INFO   (majin_log1:zlogtest.cpp:57) - [32;40;1mThis is WARN = 17[0m
+2019-11-25 23:21:10.062820 NOTICE (majin_log1:zlogtest.cpp:58) - [34;40;1mThis is NOTICE = 17[0m
+2019-11-25 23:21:10.062821 WARN   (majin_log1:zlogtest.cpp:59) - [33;40;1mThis is WARN = 17[0m
+2019-11-25 23:21:10.062824 ERROR  (majin_log1:zlogtest.cpp:60) - [35;40;1mThis is ERROR = 17[0m
+2019-11-25 23:21:10.062826 FATAL  (majin_log1:zlogtest.cpp:61) - [31;40;5mThis is FATAL = 17
+[0m
+2019-11-25 23:21:11.063876 DEBUG  (majin_log1:zlogtest.cpp:56) - [36;40;1mThis is DEBUG = 21[0m
+2019-11-25 23:21:11.063902 INFO   (majin_log1:zlogtest.cpp:57) - [32;40;1mThis is WARN = 21[0m
+2019-11-25 23:21:11.063905 NOTICE (majin_log1:zlogtest.cpp:58) - [34;40;1mThis is NOTICE = 21[0m
+2019-11-25 23:21:11.063907 WARN   (majin_log1:zlogtest.cpp:59) - [33;40;1mThis is WARN = 21[0m
+2019-11-25 23:21:11.063909 ERROR  (majin_log1:zlogtest.cpp:60) - [35;40;1mThis is ERROR = 21[0m
+2019-11-25 23:21:11.063911 FATAL  (majin_log1:zlogtest.cpp:61) - [31;40;5mThis is FATAL = 21
+[0m
+2019-11-25 23:21:12.064366 DEBUG  (majin_log1:zlogtest.cpp:56) - [36;40;1mThis is DEBUG = 25[0m
+2019-11-25 23:21:12.064390 INFO   (majin_log1:zlogtest.cpp:57) - [32;40;1mThis is WARN = 25[0m
+2019-11-25 23:21:12.064392 NOTICE (majin_log1:zlogtest.cpp:58) - [34;40;1mThis is NOTICE = 25[0m
+2019-11-25 23:21:12.064394 WARN   (majin_log1:zlogtest.cpp:59) - [33;40;1mThis is WARN = 25[0m
+2019-11-25 23:21:12.064397 ERROR  (majin_log1:zlogtest.cpp:60) - [35;40;1mThis is ERROR = 25[0m
+2019-11-25 23:21:12.064399 FATAL  (majin_log1:zlogtest.cpp:61) - [31;40;5mThis is FATAL = 25
+[0m
+2019-11-25 23:21:13.064547 DEBUG  (majin_log1:zlogtest.cpp:56) - [36;40;1mThis is DEBUG = 29[0m
+2019-11-25 23:21:13.064571 INFO   (majin_log1:zlogtest.cpp:57) - [32;40;1mThis is WARN = 29[0m
+2019-11-25 23:21:13.064575 NOTICE (majin_log1:zlogtest.cpp:58) - [34;40;1mThis is NOTICE = 29[0m
+2019-11-25 23:21:13.064576 WARN   (majin_log1:zlogtest.cpp:59) - [33;40;1mThis is WARN = 29[0m
+2019-11-25 23:21:13.064578 ERROR  (majin_log1:zlogtest.cpp:60) - [35;40;1mThis is ERROR = 29[0m
+2019-11-25 23:21:13.064580 FATAL  (majin_log1:zlogtest.cpp:61) - [31;40;5mThis is FATAL = 29
+[0m
+2019-11-25 23:21:14.064720 DEBUG  (majin_log1:zlogtest.cpp:56) - [36;40;1mThis is DEBUG = 33[0m
+2019-11-25 23:21:14.064740 INFO   (majin_log1:zlogtest.cpp:57) - [32;40;1mThis is WARN = 33[0m
+2019-11-25 23:21:14.064743 NOTICE (majin_log1:zlogtest.cpp:58) - [34;40;1mThis is NOTICE = 33[0m
+2019-11-25 23:21:14.064745 WARN   (majin_log1:zlogtest.cpp:59) - [33;40;1mThis is WARN = 33[0m
+2019-11-25 23:21:14.064748 ERROR  (majin_log1:zlogtest.cpp:60) - [35;40;1mThis is ERROR = 33[0m
+2019-11-25 23:21:14.064749 FATAL  (majin_log1:zlogtest.cpp:61) - [31;40;5mThis is FATAL = 33
+[0m
+2019-11-25 23:21:15.065016 DEBUG  (majin_log1:zlogtest.cpp:56) - [36;40;1mThis is DEBUG = 37[0m
+2019-11-25 23:21:15.065038 INFO   (majin_log1:zlogtest.cpp:57) - [32;40;1mThis is WARN = 37[0m
+2019-11-25 23:21:15.065042 NOTICE (majin_log1:zlogtest.cpp:58) - [34;40;1mThis is NOTICE = 37[0m
+2019-11-25 23:21:15.065044 WARN   (majin_log1:zlogtest.cpp:59) - [33;40;1mThis is WARN = 37[0m
+2019-11-25 23:21:15.065045 ERROR  (majin_log1:zlogtest.cpp:60) - [35;40;1mThis is ERROR = 37[0m
+2019-11-25 23:21:15.065047 FATAL  (majin_log1:zlogtest.cpp:61) - [31;40;5mThis is FATAL = 37
+[0m
+2019-11-25 23:21:16.066130 DEBUG  (majin_log1:zlogtest.cpp:56) - [36;40;1mThis is DEBUG = 41[0m
+2019-11-25 23:21:16.066154 INFO   (majin_log1:zlogtest.cpp:57) - [32;40;1mThis is WARN = 41[0m
+2019-11-25 23:21:16.066157 NOTICE (majin_log1:zlogtest.cpp:58) - [34;40;1mThis is NOTICE = 41[0m
+2019-11-25 23:21:16.066159 WARN   (majin_log1:zlogtest.cpp:59) - [33;40;1mThis is WARN = 41[0m
+2019-11-25 23:21:16.066160 ERROR  (majin_log1:zlogtest.cpp:60) - [35;40;1mThis is ERROR = 41[0m
+2019-11-25 23:21:16.066163 FATAL  (majin_log1:zlogtest.cpp:61) - [31;40;5mThis is FATAL = 41
+[0m
