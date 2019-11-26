@@ -9,7 +9,7 @@
 
 #define MAJIN(LEVEL) LOG(LEVEL)
 #include <unistd.h>
-#include "../include/mocar_log.h"
+#include "../include/majin_zlog.h"
 #include <string.h>
 zlog_category_t * defult = NULL;
 zlog_category_t * majin1 = NULL;

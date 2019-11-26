@@ -9,7 +9,7 @@
 
 
 #include <unistd.h>
-#include "easylogging++.h"
+#include "../include/majin_easylog.h"
 #define MAJIN(LEVEL) CLOG(LEVEL,"MAJIN","LZL") //自定义打印名称以及多logger
 
 INITIALIZE_EASYLOGGINGPP
@@ -17,14 +17,14 @@ INITIALIZE_EASYLOGGINGPP
 int main(void) {  
     el::Loggers::addFlag(el::LoggingFlag::CreateLoggerAutomatically); //设置默认配置文件
     el::Loggers::addFlag(el::LoggingFlag::MultiLoggerSupport); //自动注册logger id，无此句每次创建logger后需要手动注册
-    el::Configurations confFromFile("default.conf"); //设置默认配置文件
+    el::Configurations confFromFile("../config/default.conf"); //设置默认配置文件
     el::Loggers::setDefaultConfigurations(confFromFile, true);
 
-    el::Configurations conf1("my1.conf");//定义配置文件路径
+    el::Configurations conf1("../config/my1.conf");//定义配置文件路径
     el::Loggers::reconfigureLogger("logger_id_1", conf1);//读取配置文件并与logger id绑定
     CLOG(INFO,"logger_id_1")<<" ------logger_id_1------  ";//以logger_id_1配置文件打印其信息
 
-    el::Configurations conf2("my2.conf"); 
+    el::Configurations conf2("../config/my2.conf"); 
     el::Loggers::reconfigureLogger("logger_id_2", conf2);
     CLOG(INFO,"logger_id_2")<<" ------logger_id_2------  ";
 
@@ -38,7 +38,7 @@ int main(void) {
     
     int i=0;
     while(1){
-        Sleep(1000);
+        sleep(1);
         defaultLogger->warn("My first ultimate log message %v %v %v", 123, 222, i);
         defaultLogger->info("My first ultimate log message %% %%v %v %v %v", 123, 22.2,"str");//%转义
         // info(const char*, const T&, const Args&...)
