@@ -1,0 +1,2 @@
+# majin-py
+python shell
