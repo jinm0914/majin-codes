@@ -15,3 +15,7 @@
 
 
 tail 命令见：https://www.runoob.com/linux/linux-comm-tail.html
+
+gflags：可与日志系统配合，输出所需的日志等级
+
+参考网址：   https://blog.csdn.net/mj641893086/article/details/74943136
