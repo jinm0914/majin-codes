@@ -1,22 +1,40 @@
-[ -d "bin" ] || mkdir "bin"
+#ubuntu shell
 
-rm -rf bin/*
+<--c-->
 
-EXCLUDE_LIST="logrotate.cpp"
+$0: 脚本本身文件名称
 
-find . -maxdepth 1 -type f -name '*.cpp' -not -name $EXCLUDE_LIST -exec sh compile.sh {} $1 \; ##重点：查找 执行
+$1: 命令行第一个参数，$2为第二个，以此类推
 
-echo "Completed!"
+$*: 所有参数列表
+
+$@: 所有参数列表
+
+$#: 参数个数
+
+$$: 脚本运行时的PID
+
+$?: 脚本退出码
+
+readlink -f "xxx"  读取xxx文件的绝对路径
+
+dirname  dirxxx/dirxxx/xxx 读取输入参数中目录部分，起过滤作用 ，结果为 dirxxx/dirxxx
+
+例： dirHome="$(dirname "$(readlink -f "xxx"  )")" 组合使用，获取xxx文件所在目录
 
 
-files=$(ls -l bin/)
+trap是一个shell内建命令，它用来指定信号的处理方式对脚本的退出(EXIT)、调试(DEBUG)、错误(ERR)、返回(RETURN)等情况做处理
 
-if [ "$files" = "total 0" ];then
+例：trap "" HUP INT QUIT TSTP  忽视Ctrl +c等操作
 
-  exit 1
-  
-else
+wait是用来阻塞当前进程的执行，直至指定的子进程执行结束后，才继续执行。使用wait可以在bash脚本“多进程”执行模式下，起到一些特殊控制的作用。
 
-  exit 0
-  
-fi
+例： wait [进程号 或 作业号]
+
+备注：
+
+如果wait后面不带任何的进程号或作业号，那么wait会阻塞当前进程的执行，直至当前进程的所有子进程都执行结束后，才继续执行。wait命令用来等待指令的指令，直到其执行完毕后返回终端。该指令常用于shell脚本编程中，待指定的指令执行完成后，才会继续执行后面的任务。如果该指令等待作业时，在作业标识号前必须添加备份号"%"。
+
+watch 查看进程
+
+sed 是Linux下一款功能强大的非交互流式文本编辑器，可以对文本文件进行增、删、改、查等操作，支持按行、按字段、按正则匹配文本内容，灵活方便，特别适合于大文件的编辑
