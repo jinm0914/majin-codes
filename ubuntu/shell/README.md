@@ -2,6 +2,8 @@
 
 <--c-->
 
+学习网址： https://www.ctolib.com/docs-master-shell-c-1904786.html
+
 $0: 脚本本身文件名称
 
 $1: 命令行第一个参数，$2为第二个，以此类推
