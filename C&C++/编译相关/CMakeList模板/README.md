@@ -1,6 +1,8 @@
 # majin-C&C++
 编译相关
 
+cmake ：https://www.ctolib.com/pr0g-cmake-examples.html
+
 -I 头文件 .表示当前文件
 -L 库文件 .表示当前文件
 例：-I ../include -L .
